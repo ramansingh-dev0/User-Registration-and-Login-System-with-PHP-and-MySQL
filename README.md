@@ -83,4 +83,3 @@ A user registration and login system built with HTML, CSS, JavaScript, and PHP, 
 ## Author
 
 - **Name**: Raman Singh
-```
