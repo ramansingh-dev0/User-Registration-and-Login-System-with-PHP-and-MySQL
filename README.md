@@ -1,7 +1,7 @@
 ## Projects Screenshots
 
-![Registration Form](signup.png)
-![Login Form](login.png)
+![Registration Form](Signup.png)
+![Login Form](Login.png)
 
 
 # PHP MySQL User Registration and Login System
