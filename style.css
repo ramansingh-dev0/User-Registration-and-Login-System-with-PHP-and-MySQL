@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+}
+
+
+body {
+    background-image: url('background.png');
+    background-color: red;
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Sets the height to cover the entire viewport */
+    width: 100vw; /* Sets the width to cover the entire viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containers{
+    
+    width: 22vw;
+    min-width: 315px;
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter:blur(5px);
+    background-color: rgba(255, 255, 255, 0.315);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transition: all 0.5s ease-in;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.413);
+    
+}
+.containers:hover{
+
+    /* background-image: linear-gradient(rgba(255, 179, 0, 0.155),rgba(255, 196, 0, 0.142)); */
+    background-color: rgba(0, 255, 166, 0.078);
+}
+
+.containers p{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    
+}
+.containers a{
+    text-decoration: none;
+}
+.containers input{
+    width: 220px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.438);
+    backdrop-filter: blur(5px);
+    padding-left: 35px;
+    font-size: 22px;
+    
+}
+.containers h2{
+    font-size: 32px;
+    color: rgb(24, 24, 24);
+    
+    text-transform: uppercase;
+
+}
+.login-field{
+    position: relative;
+}
+svg{
+    color: rgb(57, 57, 57);
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+transform: translateY(-50%);
+    z-index: 2;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 2px 2px;
+}
+form button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.438);
+    backdrop-filter: blur(5px);
+    font-size: 22px;   
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 15px;
+    color: rgb(74, 74, 74);
+}
+
+.sound{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px white;
+    background-color: rgba(255, 255, 255, 0.247);
+    backdrop-filter: blur(5px);
+    transition: all 0.7s ease-in-out;
+}
+.sound:hover{
+    box-shadow: 0 0 10px rgb(255, 187, 0);
+    border: 2px solid rgb(255, 187, 0);
+    background-color: rgba(255, 213, 0, 0.247);
+}
+.sound:hover i{
+    color: rgb(255, 187, 0); 
+}
+.sound i{
+    color: rgb(255, 255, 255); 
+    z-index: 1000;
+    transition: all 0.7s ease-in-out;
+    
+}
+
+
+
